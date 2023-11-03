@@ -43,6 +43,7 @@
     justify-content: center;
     align-items: center;
     height: 48px;
+    cursor: pointer;
 }
 
 .btn span img {
@@ -140,6 +141,10 @@
     /* 176.923% */
     text-decoration: line-through;
     margin-left: 20px;
+}
+
+.btn:hover{
+    background-color: #1A4032;
 }
 
 @media only screen and (max-width:620px) {
