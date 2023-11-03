@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/silkcoder/Product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://silkcoder.github.io/Product-preview-card-component/)
+- Solution URL: [https://github.com/silkcoder/Product-preview-card-component](https://github.com/silkcoder/Product-preview-card-component)
+- Live Site URL: [https://silkcoder.github.io/Product-preview-card-component](https://silkcoder.github.io/Product-preview-card-component)
 
 ## My process
 
