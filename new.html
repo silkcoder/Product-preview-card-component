@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #F2EAE2;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+
+    .items img {
+        display: block;
+        width: 300px;
+    }
+
+    .btn {
+        width: 236px;
+        height: 38px;
+        background-color: #3D8168;
+        border-radius: 8px;
+        border: none;
+
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #FFFFFF;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn span img {
+        width: 14.385px;
+        height: 16px;
+    }
+
+    .btn span {
+        margin-right: 8px;
+    }
+
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 300px;
+        background-color: white;
+    }
+
+
+    .items div{
+        padding:0 32px;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="items">
+                <img src="images/image-product-desktop.jpg" alt="">
+            </div>
+            <div class="items">
+
+                <div>Perfume</div>
+
+                <div>Gabrielle Essence Eau De Parfum</div>
+
+
+                <div>
+                    <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
+                        Perfumer-Creator for the House of CHANEL.</p>
+                </div>
+
+                <div>
+                    <span>$149.99</span>
+                    <span>$169.99</span>
+                </div>
+
+                <div class="button">
+                    <button class="btn" type="button">
+                        <span>
+                            <img src="images/icon-cart.svg" alt="">
+                        </span>
+                        <span>
+                            Add to Cart
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
